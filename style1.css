@@ -140,10 +140,6 @@ nav {
     background: green;
 }
 
-#products {
-    /* height: 100vh; */
-    /* border: 2px solid green; */
-}
 
 #products > h1 {
 
@@ -194,8 +190,9 @@ nav {
     margin: 0;
 }
 
-.product :hover {
+.product:hover {
     transform: translateY(-10px);
+    box-shadow:0 0 15px black;
 }
 
 footer {
